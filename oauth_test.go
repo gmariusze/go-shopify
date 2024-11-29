@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"testing"
 
-	"gopkg.in/jarcoal/httpmock.v1"
+	"github.com/jarcoal/httpmock"
 )
 
 func TestAppAuthorizeUrl(t *testing.T) {
